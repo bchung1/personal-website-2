@@ -2,28 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>Brian Chung</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
-    <link href="https://fonts.googleapis.com/css?family=Exo:100" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container vcenter">
+    <div class="container">
         <div class="row">
-            <div class="text-center">
-                <img src="img/profile.jpg" alt="">
-                <h1 class="">Brian Chung</h1>
-                <div id="underline">_ __ ___ ____ _____ ______ _______ ________</div>
-                <h5 class="titles">UMCP 2018 / Dancer / Developer</h5>
-                <a class="icon-left" href="https://www.linkedin.com/in/brian-chung-405a3610a?trk=nav_responsive_tab_profile_pic"><i class="fa fa-linkedin-square grow" aria-hidden="true"></i></a>
-                <a class="icon" href="https://github.com/bchung1"><i class="fa fa-github grow" aria-hidden="true"></i></a>
-                <a class="icon" href=" resume.pdf "><i class="fa fa-file-text-o grow" aria-hidden="true "></i></a>
+            <div id="profile" class="center">
+                <img class="circle" src="img/profile.jpg" alt="" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab col l6"><a class="active" href="#about">About</a></li>
+                    <li class="tab col l6"><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div id="about" class="col s12 m12 l12">
+                <div class="divider"></div>
+                <p class="flow-text">Hi I'm Brian! <br/><br>I'm a junior Computer Science major at the University of Maryland College Park. I am an avid developer and lover of tech. I am currently a Software Engineering Intern at <strong><u>General Dynamics Missions Systems</u></strong>,
+                    working with microservices and docker container technologies. For the summer of 2017, I will be an Engineering Intern on the Big Data Team at the <strong><u>Washington Post</u></strong>.<br><br> I also enjoy
+                    <a id="bboyLink " href="http://www.youtube.com/watch?v=qHcj15NYRJk&t=6m17s "><strong><u>bboying</u></strong></a> also known as breakdancing. I have been dancing since high school and continue to dance in B-Terps, UMCP's breakdance
+                    club.
+                </p>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="row">
+                <div class="card small horizontal z-depth-4">
+                    <div class="card-image">
+                        <img src="img/instarecord.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h4>Insta Record</h4>
+                            <p>
+                                Insta Record is a system that allows EMTs to receive patient medical records on site. We built a pebble watch app that detects when a user is incapcitated and a web application that pulls medical records from our firebase database. <br><br>Built
+                                with Node.js, Firebase, JavaScript, HTML, CSS
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="https://github.com/bchung1/Insta-Record" class="waves-effect waves-light btn">Github</a>
+                            <a target="_blank" href="https://devpost.com/software/insta-record-ym695i" class="waves-effect waves-light btn">Devpost</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card small horizontal z-depth-4">
+                    <div class="card-image">
+                        <img src="img/wedj.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h4>WeDJ</h4>
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="https://github.com/bchung1/Insta-Record" class="waves-effect waves-light btn">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card small horizontal z-depth-4">
+                    <div class="card-image">
+                        <img src="img/t2t.png">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h4>Trash 2 Treasure</h4>
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="https://github.com/bchung1/Insta-Record" class="waves-effect waves-light btn">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card small horizontal z-depth-4">
+                    <div class="card-image">
+                        <img src="img/sc.gif">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h4>Soundcloud DL Extension</h4>
+                            <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="https://github.com/bchung1/Insta-Record" class="waves-effect waves-light btn">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col s12 md12 l12 center ">
+                <a class="icon " href="https://www.linkedin.com/in/brian-chung-405a3610a?trk=nav_responsive_tab_profile_pic "><i class="fa fa-linkedin-square fa-fw grow " aria-hidden="true "></i></a>
+                <a class="icon " href="https://github.com/bchung1 "><i class="fa fa-github fa-fw grow " aria-hidden="true "></i></a>
+                <a class="icon " href=" resume.pdf "><i class="fa fa-file-text-o fa-fw grow " aria-hidden="true "></i></a>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js " integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin=" anonymous "></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/index.js " type="text/javascript "></script>
 </body>
 
 </html>

@@ -1,12 +1,6 @@
-/* Custom, iPhone Retina */
-
 body {
     background-color: #2F52E0;
-    padding-top: 20vh;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-family: 'Exo', sans-serif;
-    color: #FFFFFF;
+    padding-top: 30px;
 }
 
 a:link {
@@ -33,175 +27,58 @@ a:active {
     transform: scale(1.1);
 }
 
-.col-centered {
-    margin: 0 auto;
-    float: none;
+.tabs {
+    background: transparent;
+    border: 1px solid #ee6e73;
 }
 
-li {
-    float: left;
+.tabs .indicator {
+    height: 3px;
+    background-color: #ee6e73;
 }
 
-@media only screen and (min-width: 320px) {
-    .titles {
-        margin-top: 5px;
-        margin-bottom: 25px;
-        font-size: 17px;
-        color: #E9E9E9;
-    }
-    h1 {
-        font-size: 38px;
-        margin-bottom: 5px;
-    }
-    #underline {
-        font-size: 9px;
-    }
-    .icon {
-        font-size: 32px;
-        margin-left: 30px;
-        color: #FFFFFF;
-    }
-    .icon-left {
-        font-size: 32px;
-        color: #FFFFFF;
-    }
-    img {
-        border-radius: 50%;
-        height: 160px;
-        width: 160px;
-        margin-bottom: 10px;
-    }
+.card .card-action {
+    text-align: center;
+    padding: 10px;
 }
 
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {
-    .titles {
-        margin-top: 5px;
-        margin-bottom: 25px;
-        font-size: 22px;
-        color: #E9E9E9;
-    }
-    h1 {
-        font-size: 48px;
-        margin-bottom: 5px;
-    }
-    #underline {
-        font-size: 12px;
-    }
-    .icon {
-        font-size: 32px;
-        margin-left: 30px;
-        color: #FFFFFF;
-    }
-    .icon-left {
-        font-size: 32px;
-        color: #FFFFFF;
-    }
-    img {
-        border-radius: 50%;
-        height: 160px;
-        width: 160px;
-        margin-bottom: 10px;
-    }
+.btn {
+    background-color: #ee6e73;
 }
 
-
-/* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {
-    .titles {
-        margin-top: 5px;
-        margin-bottom: 25px;
-        font-size: 28px;
-        color: #E9E9E9;
-    }
-    h1 {
-        font-size: 60px;
-        margin-bottom: 5px;
-    }
-    #underline {
-        font-size: 15px;
-    }
-    .icon {
-        font-size: 40px;
-        margin-left: 30px;
-        color: #FFFFFF;
-    }
-    .icon-left {
-        font-size: 40px;
-        color: #FFFFFF;
-    }
-    img {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        margin-bottom: 10px;
-    }
+.btn:hover {
+    background-color: #ee6e73;
 }
 
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {
-    .titles {
-        margin-top: 5px;
-        margin-bottom: 25px;
-        font-size: 28px;
-        color: #E9E9E9;
-    }
-    h1 {
-        font-size: 60px;
-        margin-bottom: 5px;
-    }
-    #underline {
-        font-size: 15px;
-    }
-    .icon {
-        font-size: 40px;
-        margin-left: 30px;
-        color: #FFFFFF;
-    }
-    .icon-left {
-        font-size: 40px;
-        color: #FFFFFF;
-    }
-    img {
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        margin-bottom: 10px;
-    }
+.btn:visited {
+    background-color: #ee6e73;
 }
 
+#profile>img {
+    margin-bottom: 30px;
+}
 
-/* Large Devices, Wide Screens */
+.icon {
+    font-size: 40px;
+}
 
-@media only screen and (min-width: 1300px) {
-    .titles {
-        margin-top: 5px;
-        margin-bottom: 25px;
-        font-size: 35px;
-        color: #E9E9E9;
-    }
-    h1 {
-        font-size: 75px;
-        margin-bottom: 5px;
-    }
-    .icon {
-        font-size: 50px;
-        margin-left: 30px;
-        color: #FFFFFF;
-    }
-    .icon-left {
-        font-size: 50px;
-        color: #FFFFFF;
-    }
-    img {
-        border-radius: 50%;
-        height: 250px;
-        width: 250px;
-        margin-bottom: 10px;
-    }
+#bboyLink:hover {
+    color: #ee6e73;
+}
+
+#about {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#name {
+    display: inline;
+}
+
+#aboutBtn {
+    background: #ee6e73;
+}
+
+#projectBtn {
+    background: #ee6e73;
 }
