@@ -1,22 +1,38 @@
-body {
+/*body
     background-color: #2F52E0;
+    padding-top: 30px;
+}*/
+
+body {
+    background-color: #1789FC;
     padding-top: 30px;
 }
 
-a:link {
-    color: #FFFFFF;
+h4 {
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
-a:visited {
-    color: #FFFFFF;
+.btn {
+    background-color: #FFE66D;
+    color: #000;
 }
 
-a:hover {
-    color: #FFFFFF;
+.btn:hover {
+    background-color: #FFE66D;
 }
 
-a:active {
-    color: #FFFFFF;
+.btn:visited {
+    background-color: #FFE66D;
+}
+
+.card .card-action {
+    text-align: center;
+    padding: 10px;
+}
+
+.divider {
+    background-color: #ffffff;
 }
 
 .grow {
@@ -27,43 +43,30 @@ a:active {
     transform: scale(1.1);
 }
 
-.tabs {
-    background: transparent;
-    border: 1px solid #ee6e73;
-}
-
-.tabs .indicator {
-    height: 3px;
-    background-color: #ee6e73;
-}
-
-.card .card-action {
-    text-align: center;
-    padding: 10px;
-}
-
-.btn {
-    background-color: #ee6e73;
-}
-
-.btn:hover {
-    background-color: #ee6e73;
-}
-
-.btn:visited {
-    background-color: #ee6e73;
-}
-
-#profile>img {
-    margin-bottom: 30px;
-}
-
 .icon {
     font-size: 40px;
 }
 
-#bboyLink:hover {
-    color: #ee6e73;
+.icon:link, .icon:visited, .icon:hover, .icon:active {
+    color: #FFE66D;
+}
+
+.tabs {
+    background: transparent;
+    border: 1px solid #FFE66D;
+}
+
+.tabs .indicator {
+    height: 3px;
+    background-color: #FFE66D;
+}
+
+.tabs .tab a {
+    font-size: 18px;
+}
+
+.tabs .tab a:hover, .tabs .tab a {
+    color: #FFE66D !important;
 }
 
 #about {
@@ -71,14 +74,14 @@ a:active {
     color: #ffffff;
 }
 
-#name {
-    display: inline;
+#bboyLink:hover {
+    color: #FFE66D !important;
 }
 
-#aboutBtn {
-    background: #ee6e73;
+#bboyLink:link, #bboyLink:visited, #bboyLink:active {
+    color: #ffffff;
 }
 
-#projectBtn {
-    background: #ee6e73;
+#profile>img {
+    margin-bottom: 30px;
 }
