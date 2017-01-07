@@ -47,7 +47,8 @@ h4 {
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 45px;
+    margin: 10px;
 }
 
 .icon:link, .icon:visited, .icon:hover, .icon:active {
